@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+
+<body>
+
+    <!-- tenemos 2 tipos de metodos:
+    GET: puede gestionar el navegador
+    POST: Si tenemos un servidor y queremos que haga algo con la inf. envia la inf esperando q resultados.html haga allgo:
+    crear entrada en bd, crear usuario, llamada a api externa.  -->
+
+    <!-- GET: los valores ingresados en el form, se pasan por la url a resultados.html -->
+    <form action="resultados.html" method="GET">
+        <!-- agrupa elementos como input o checkbox donde el usuario ingresar su inf  -->
+        <div>
+            <label for="nombreusuario">Nombre de usuario: </label>
+            <input type="text" name="nombreusuario" id="nombreusuario" required />
+        </div>
+        <br>
+        <div>
+            <label for="edad">Cual es tu edad?:</label>
+            <input type="number" name="edad" id="edad"  min="18"  max="120" step="5" required />
+        </div>
+        <br>
+        <div>
+            <label for="edad">Cual es tu email?:</label>
+            <input type="email" name="email" id="email" />
+        </div>
+        <br>
+        <div>
+            <label for="nac">Cual es tu fecha de nacimiento?:</label>
+            <input type="date" name="nac" id="nac" />
+        </div>
+        <br>
+        <div>            
+            <label for="comentarios">Comentarios</label>
+            <textarea name="comentarios" id="comentarios"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="contrasenia">Contraseña</label>
+            <input type="password" name="contrasenia" id="contrasenia" required />
+        </div>
+        <br>
+        <button type="reset">Reset</button>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+
+</html>
