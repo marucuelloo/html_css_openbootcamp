@@ -1,0 +1,63 @@
+/*estilos para colores*/
+.colores{
+    color:orangered;
+}
+    /*https://coolors.co*/
+.color-hexadecimal{
+    color: #DAFF7D;
+}
+
+/*rgb es el estandar (red green blue )
+rgba agrega una capa mas que es la trasnparencia que va entre 0 y 1 ((red, green, blue, 0.2  )) 1 es opaco sin transparencia
+sirve mucho para background */
+.color-rgb{
+    color:rgb(100, 0, 200);
+}
+.color-rgba{
+    color:rgba(100, 0, 200, 0.2 );
+}
+
+/*fondos*/
+.fondo{
+    /* background-color: cornflowerblue; */
+    background-image: url(https://www.encompasscorporation.com/wp-content/uploads/2015/09/example-background.jpg);
+    background-position: center center
+    /*podes poner top left right bottom probar la posicion que queda mejor en la imagen*/;
+}
+.fondo-interno{
+    /* background-color: cornflowerblue; */
+    background-image: url(./img/fondo.jpg);
+    background-position:left left;
+    /*podes poner top left right bottom probar la posicion que queda mejor en la imagen*/;
+}
+
+/*tamaños*/
+.ancho{
+    background-color: #DAFF7D;
+    width: 100px ;
+}.alto{
+    background-color: aquamarine;
+    height: 500px;
+    width: 200px;
+}
+
+/*px no es responsive*/
+
+.tarjeta{ 
+    /*borde*/
+    border-style:double;
+    border-color: rgb(247, 58, 10);
+    border-width: 5px;
+    /* border-top: none; */
+
+    /*paddin es el espacio interno*/
+    /*1 elemento vertical 2do elemtno horizontal 
+    10 px seria arriba abajo y 20 izq derecha*/
+    /*si tengo  padding: 10px 20px 30px;  es arriba, der-izq, abajo*/
+    /*movimiento como las agujas del reloj*/
+    padding: 10px 20px;
+
+    /*margin espacio externo, que guarda nuestro elemento con respecto al resto de elementos del dom del html */
+    /*mismo comportamiento que padding*/
+    margin: 10px 20px
+}

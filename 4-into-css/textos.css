@@ -1,0 +1,18 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
+
+html{
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family: 'Mynerve', cursive;
+    /* ctrol + espacio me da las opciones del atributo css */
+    font-size: medium ;
+    /*para hacer en negerita y no todas las family los permiten*/
+    font-weight: 400;
+
+    /*infinitas posibilidades:*/
+    /*https://fonts.google.com/
+    busco el peso de la fuentee elegida, selecciono select this style en los que quiera en la pagina 
+    hay 2 opciones
+    link y con import*/
+
+}

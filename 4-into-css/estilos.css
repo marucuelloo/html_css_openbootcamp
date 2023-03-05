@@ -1,0 +1,45 @@
+/* que propiedad queremos cambiar y los valores que le vamos a dar a esa propiedad  */
+h1{
+    color: red;
+
+}
+/*estoy probando colores y fuentes*/
+p{
+    color:blue;
+    font-size: 16pt;
+}
+/*la etiqueta p va afectar a todos los parrafos por igual
+si yo quisiera dar formato a cada parrafo, se usan los selectores*/
+/* -selectores id #  */
+p#primeranoticia{
+    color: green;
+    font-size: 12pt;
+}
+#segundanoticia{
+    color: darkblue;
+}
+
+.encabezado{
+    font-size: 24pt;
+    text-transform: uppercase;
+}
+/* * es para todos los elementos que tengan la clase warning*/
+*.warning{
+    color: orangered;
+}
+
+/*le quiero poner que cada elemento este subrayado puedo asi, o directamente con , */
+/* .autor{
+    text-decoration: underline;
+}
+.fecha{
+    text-decoration: underline;
+
+}
+.ubicacion{
+
+    text-decoration: underline;
+} */
+.autor, .fecha, .ubicacion, h1, #segundanoticia{
+    text-decoration: underline;
+}
