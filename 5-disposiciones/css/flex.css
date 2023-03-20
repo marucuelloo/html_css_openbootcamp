@@ -1,0 +1,55 @@
+/*esta pagina muestra cuando es flex/
+/*https://codepen.io/enxaneta/full/adLPwv*/
+
+.flex{
+    /*posiciona todo dentro del div
+    lo que hace es contener todo lo del div y lo posiciona ordenadamente
+    por defecto lo pone en fila*/
+    display: flex;
+    background-color: yellow;
+    height: 300px;
+    /*posiciona los elementos edentro del fex, con relacion
+    al eje principal (horizontal)*/
+    justify-content: space-around;
+    /*tambien puede ser start. center,  end, space-between (el espacio sobrante lo distribuye entre los elementos)
+    space- around (distribuya alredodr el espacico sobrante )*/
+    /* flex-wrap: nowrap;
+    redimensionar los elementos en relacion a la pantalla */
+    /* flex-wrap: wrap; */
+    /* align-items: stretch; */
+    /*por defecto,  toma el largo de todo el contendor */
+    
+    align-items: flex-start;
+    /*lo centra en el eje vertical y la altura q van a tener es en funcion del contenido, si pongo mas txt se agranda la altura */
+    /*flex-start es arriba de todo
+    flex-end
+
+    */
+
+    /*puedo decirle que el eje vertical sea el principal y no el horizontal*/
+    /*hace todo de der a izq */
+    /* flex-direction: row-reverse; */
+    /*row es por defecto*/
+    flex-direction: column;
+    
+
+
+}
+.contenido-1{
+    background-color: white;
+    /* height: 200px; */
+    width: 100px;
+    border: 1px solid blue
+}
+.contenido-2{
+    background-color: white;
+    /* height: 200px; */
+    width: 100px;
+    border: 1px solid blue
+}
+.contenido-3{
+    background-color: white;
+    /* height: 200px; */
+    width: 100px;
+    border: 1px solid blue
+}
