@@ -1,0 +1,57 @@
+.contenedor-hidden{
+    background-color: bisque;
+    width: 300px;
+    height:100px ;
+    padding: 15px;
+    overflow: hidden ;
+
+   /* hidden: todo lo que sobresale se oculta  */
+}
+
+.contenedor-scroll{
+    margin: 10px opx;
+    background-color: rgb(197, 167, 224);
+    width: 300px;
+    height:100px ;
+    padding: 15px;
+    overflow: scroll ;
+
+   /* scroll, creamos la barra para desplazar 
+   tambien puedo decirle solo lo quiero en el eje de las y, o solo en el de las x  */
+}
+.contenedor-scroll-x{
+    margin: 10px opx;
+    background-color: rgb(93, 190, 106);
+    width: 300px;
+    height:100px ;
+    padding: 15px;
+    overflow-y: hidden;
+    overflow-x: scroll ;
+
+   /* scroll, creamos la barra para desplazar 
+   tambien puedo decirle solo lo quiero en el eje de las y  o de las x
+   hidden es q esconda las y  */
+}
+
+.contenedor-visible{
+    margin: 10px opx;
+    background-color: rgb(66, 37, 196);
+    width: 300px;
+    height:100px ;
+    padding: 15px;
+    overflow: visible ;
+
+   /* visible, es el que viene por defecto cuando no pones nada   */
+}
+
+.contenedor-auto{
+    margin: 10px opx;
+    background-color: rgb(204, 83, 104);
+    width: 300px;
+    height:100px ;
+    padding: 15px;
+    overflow: auto;
+
+   /* auto, solo te pone las barras donde es necesario
+   en este caso solo el eje de las y  */
+}
